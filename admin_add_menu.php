@@ -18,7 +18,7 @@ include "admin_connection.php";
 if(isset($_POST['submit'])){
     $name = $_POST['name'];
     $price = $_POST['price'];
-    
+     
     $target_dir = "uploads/";
     $image = $_FILES['image']['name'];
     $img_loc = $_FILES['image']['tmp_name'];
